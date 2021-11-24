@@ -1,0 +1,2 @@
+This is a smaple project to run webpack-dev-server in a docker container. By default, mounting local file in a docker container does not invoke hot reloading.
+We need to specify `poll` option to enable hot reloading.

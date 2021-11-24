@@ -1,0 +1,11 @@
+version: '3'
+services:
+  webpack:
+    image: node:14
+    volumes:
+      - ./:/usr/src/app
+    working_dir: /usr/src/app
+    command: bash -c "yarn && yarn start"
+    ports:
+      - "3000:3000"
+  
